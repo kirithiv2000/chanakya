@@ -7,12 +7,12 @@
             "choices": [
                 {
                     "file": "percentage/choice1/choice.md",
-                    "helpText": "percentage/choice1/helpText.md",
+                    "helpTextFile": "percentage/choice1/helpText.md",
                     "id": 1
                 },
                 {
                     "file": "percentage/choice2/choice.md",
-                    "helpText": "percentage/choice2/helpText.md",
+                    "helpTextFile": "percentage/choice2/helpText.md",
                     "id": 13
                 }
             ]
@@ -24,12 +24,12 @@
             "choices": [
                 {
                     "file": "unitaryMethod/choice1/choice.md",
-                    "helpText": "unitaryMethod/choice1/helpText.md",
+                    "helpTextFile": "unitaryMethod/choice1/helpText.md",
                     "id": 2
                 },
                 {
                     "file": "unitaryMethod/choice2/choice.md",
-                    "helpText": "unitaryMethod/choice2/helpText.md",
+                    "helpTextFile": "unitaryMethod/choice2/helpText.md",
                     "id": 14
                 }
             ]
@@ -41,12 +41,12 @@
             "choices": [
             {
                 "file": "algebra/choice1/choice.md",
-                "helpText": "algebra/choice1/helpText.md",
+                "helpTextFile": "algebra/choice1/helpText.md",
                 "id": 3
             },
             {
                 "file": "algebra/choice2/choice.md",
-                "helpText": "algebra/choice2/helpText.md",
+                "helpTextFile": "algebra/choice2/helpText.md",
                 "id": 15
             }
             ]
