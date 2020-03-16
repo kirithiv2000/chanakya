@@ -13,11 +13,10 @@
 ## Common Text
 
 ### Hindi
-Ek apple ka weight 80 grams hai.
-Aur ek orange ka weight 60 grams hai.
-Aapke paas 8 apples aur 6 oranges hai.
-Toh aap ke paas kitne grams fruits hai?
-
+एक सेब  का वज़न 80 ग्राम् हैं|
+एक संतरे  का वज़न 60  ग्राम् है| 
+आपके पास 8  सेब और 6 संतरे हैं 
+तोह आपके पास कुल मिला के कितने ग्राम्स फल हैं?
 
 ### English
 Weight of one apple is 80 grams.
@@ -48,18 +47,9 @@ How many grams of fruits do you have?
 ## Common Text
 
 ### Hindi
-Inn questions ko karne ke liye aap sochiye - aapke paas jo jo information nahi hai, usse x aur y jaise variables de kar maanni padegi. Phir unn variables se equation bana sakte hai jaise 3x+2y=100. Agar aap Maths se darte toh bhi mat ghabrayie, aap thoda sa dhyaan laga kar sochenge toh bhi kuch questions toh solve kar hi loge.
-
-Ek apple ka weight 70 grams hai.
-Aur ek orange ka weight 45 grams hai.
-Aapke paas 4000 grams fruits hai.
-In mei se kaunsa combination se aap
-4000 grams fruits bana sakte hai.
-
+एक सेब  का वज़न  70 ग्राम्स है और एक संतरे का वज़न 45 ग्राम्स है| आपके पास 4000 ग्राम्स फल है| इन मे  से किस मेल से आप 4000 ग्राम्स फल बना सकते हैं?
 
 ### English
-For this final set of questions try to understand what information is given to you, and then try to put that information in terms of variables like x and y, in an equation like 3x+2y=100. Even if you don’t know maths properly, don’t worry. Just try to solve these questions one at a time and with focus, and you would be able to solve a few.
-
 Weight of one apple is 70 grams.
 And weight of one orange is 45 grams.
 You have 4000 grams of fruits.
@@ -89,12 +79,7 @@ has 4000 grams of weight?
 ## Common Text
 
 ### Hindi
-Ek apple ka weight 120 grams hai.
-Aur ek orange ka weight 40 grams hai.
-Aapke paas 6400 grams fruits hai.
-Aur aapke paas same number of apples
-and same number of oranges hai.
-Batayie aapke paas kitne apples hai?
+एक सेब  का वज़न  120  ग्राम्स है और एक संतरे का वज़न 40  ग्राम्स है|  आपके पास 6400  ग्राम्स फल है| आपके पास उतने ही सेब हैं जीतनेय संतरे हैं| बताइये आपके पास कितने सेब हैं?
 
 
 ### English
@@ -124,17 +109,8 @@ How many apples do you have?
 ## Common Text
 
 ### Hindi
-Ek apple ka weight 70 grams hai.
-
-Aur ek orange ka weight 50 grams hai.
-
-Aapke paas 4940 grams fruits hai.
-
-Aur aapke paas jitne oranges hai uske double number of apples hai.
-
-(Yaani agar 5 orange hai, toh 10 apples honge)
-
-Batayie aapke paas kitne apples hai?
+एक सेब का वज़न 70 ग्राम्स है | एक संतरे का वेट 50 ग्राम्स है | आपके पास 4940 ग्राम्स फल है | आपके पास जीतने संतरे हैं उसके दुगने सेब हैं | (यानी अगर 5 संतरे हैं तोह 10 सेब होंगे)
+अब बताइये आपके पास कितने सेब हैं?
 
 
 ### English
@@ -170,11 +146,8 @@ How many apples do you have?
 ## Common Text
 
 ### Hindi
-Ek apple ka weight 75 grams hai.
-Ek apple ka weight, ek orange se three times hai.
-Aur number of oranges, number of apples se 5 times (5 guna) hai.
-Aapke paas 4800 grams fruits hai.
-Batayie aapke paas kitne apples hai?
+एक सेब का वज़न 75 ग्राम्स है | एक सेब का वज़न एक संतरे का 3 टाइम  हैं  | संतरे के नंबर सेब से 5 गुना ज़ियादा हैं|  आपके पास 4800  ग्राम्स फल है | 
+अब बताइये आपके पास कितने सेब हैं? 
 
 
 ### English
@@ -204,13 +177,11 @@ How many apples do you have?
 ## Common Text
 
 ### Hindi
-Ek apple ka weight 20 grams hai.
-Aur ek orange ka weight 30 grams hai.
-Aapke paas har 2 oranges ke liye, 3 apples hai.
-(Example: Yaani agar 2 orange hai, toh 3 apples honge.
-4 oranges hain toh 6 apples honge etc.)
-Aap ke paas total 4800 grams ke fruits hai.
-Aapke paas kitne apples hai?
+एक सेब का वज़न 20 ग्राम्स है | 
+एक संतरे का वज़न 30 ग्राम्स है | 
+आपके पास हर 2 संतरे के लिए 3 सेब हैं (4 संतरे हैं तोह 6 सेब होंगे )|
+ आपके पास 4800  ग्राम्स फल है |  
+अब बताइये आपके पास कितने सेब हैं? 
 
 
 ### English

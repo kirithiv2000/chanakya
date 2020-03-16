@@ -1,52 +1,64 @@
 {
-  "buckets": [
-      {
-          "name": "Percentage",
-          "id": 2,
-          "numQuestions": 5,
-          "choices": [
-              {
-                  "file": "percentage/percentageChoice1.md",
-                  "id": 1
-              },
-              {
-                  "file": "percentage/percentageChoice2.md",
-                  "id": 13
-              }
-          ]
-      },
-      {
-          "name": "Unitary Method",
-          "id": 1,
-          "numQuestions": 3,
-          "choices": [
-              {
-                  "file": "unitaryMethod/unitMethodChoice1.md",
-                  "id": 2
-              },
-              {
-                  "file": "unitaryMethod/unitMethodChoice2.md",
-                  "id": 14
-              }
-          ]
-      },
-      {
-          "name": "Algebra",
-          "id": 3,
-          "numQuestions": 6,
-          "choices": [
-              {
-                  "file": "algebra/algebraChoice1.md",
-                  "id": 3
-              },
-              {
-                  "file": "algebra/algebraChoice2.md",
-                  "id": 15
-              }
-          ]
-      }
-  ],
-  "normalQuestionFiles": [
-      "normalQuestions.md"
-  ]
+    "buckets": [
+        {
+            "name": "Percentage",
+            "id": 2,
+            "numQuestions": 5,
+            "choices": [
+                {
+                    "file": "percentage/choice1/choice.md",
+                    "helpText": "percentage/choice1/helpText.md",
+                    "id": 1
+                },
+                {
+                    "file": "percentage/choice2/choice.md",
+                    "helpText": "percentage/choice2/helpText.md",
+                    "id": 13
+                }
+            ]
+        },
+        {
+            "name": "Unitary Method",
+            "id": 1,
+            "numQuestions": 3,
+            "choices": [
+                {
+                    "file": "unitaryMethod/choice1/choice.md",
+                    "helpText": "unitaryMethod/choice1/helpText.md",
+                    "id": 2
+                },
+                {
+                    "file": "unitaryMethod/choice2/choice.md",
+                    "helpText": "unitaryMethod/choice2/helpText.md",
+                    "id": 14
+                }
+            ]
+        },
+        {
+            "name": "Algebra",
+            "id": 3,
+            "numQuestions": 6,
+            "choices": [
+            {
+                "file": "algebra/choice1/choice.md",
+                "helpText": "algebra/choice1/helpText.md",
+                "id": 3
+            },
+            {
+                "file": "algebra/choice2/choice.md",
+                "helpText": "algebra/choice2/helpText.md",
+                "id": 15
+            }
+            ]
+        }
+    ],
+    "normalQuestionFiles": [
+        "normalQuestions.md"
+    ],
+    "topicHelpFiles": [
+        {
+            "name": "Mathematical Patterns",
+            "file": "helpText/mathPatterns.md"
+        }
+    ]
 }
