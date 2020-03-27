@@ -145,81 +145,90 @@
     </div>
     <!-- question set display -->
     <div class="main">
-      {{#each questions}}
-      <table class="question-table padding-zero">
-        <tr>
-          <td width="4%" valign='top'><b> {{inc @index}}. </b></td>
-          <td valign='top' class="padding-zero">
-            <table class="question-display padding-zero">
-              <tr>
-                <td valign='top' class="question-text">
-                  {{!--
-                    commen text between the questions like
-                    images, mathematical equation.
-                  --}}
-                  {{#if this.commonText}}
-                    <div class="commen-text">
-                      {{#if (hasParaTag this.commonText) }}
-                        {{{this.commonText}}}
-                      {{else}}
-                        <p>
+      {{#each sections}}
+        <center>
+          <h1>Section {{inc @index}}: {{ this.sectionName }}</h1>
+        </center>
+        {{{ this.enHelpText }}}
+        <br /><br />
+        {{{ this.hiHelpText }}}
+        {{#each this.questions}}
+        <table class="question-table padding-zero">
+          <tr>
+            <td width="4%" valign='top'><b> {{inc @index}}. </b></td>
+            <td valign='top' class="padding-zero">
+              <table class="question-display padding-zero">
+                <tr>
+                  <td valign='top' class="question-text">
+                    {{!--
+                      commen text between the questions like
+                      images, mathematical equation.
+                    --}}
+                    {{#if this.commonText}}
+                      <div class="commen-text">
+                        {{#if (hasParaTag this.commonText) }}
                           {{{this.commonText}}}
-                        </p>
-                      {{/if}}
-                    </div>
-                  {{/if}}
-
-                  {{!-- English text --}}
-                  {{#if this.enText}}
-                    {{#if (hasParaTag this.enText) }}
-                      {{{this.enText}}}
-                    {{else}}
-                      <p>
-                        {{{this.enText}}}
-                      </p>
-                    {{/if}}
-                  {{/if}}
-
-                  {{!-- Hindi text --}}
-                  {{#if this.hiText}}
-                    {{#if (hasParaTag this.hiText) }}
-                      {{{this.hiText}}}
-                    {{else}}
-                      <p>
-                        {{{this.hiText}}}
-                      </p>
-                    {{/if}}
-                  {{/if}}
-
-
-                  {{#if (eq this.type 2)}}
-                    <p>Iska answer likho answers wale page pe.</p>
-                  {{/if}}
-                </td>
-              </tr>
-
-              {{#if (eq this.type 1)}}
-                  <tr class="inline-block">
-                    {{#each this.options}}
-                    <tr style="display:inline-block; min-width:45%;">
-                      <td style="width:20px" colspan="2">{{string_lower @index}}).</td>
-                      <td class="options-cell">
-                        {{#if (hasParaTag this.text) }}
-                          {{{this.text}}}
                         {{else}}
                           <p>
-                            {{{this.text}}}
+                            {{{this.commonText}}}
                           </p>
                         {{/if}}
-                      </td>
+                      </div>
+                    {{/if}}
+  
+                    {{!-- English text --}}
+                    {{#if this.enText}}
+                      {{#if (hasParaTag this.enText) }}
+                        {{{this.enText}}}
+                      {{else}}
+                        <p>
+                          {{{this.enText}}}
+                        </p>
+                      {{/if}}
+                    {{/if}}
+  
+                    {{!-- Hindi text --}}
+                    {{#if this.hiText}}
+                      {{#if (hasParaTag this.hiText) }}
+                        {{{this.hiText}}}
+                      {{else}}
+                        <p>
+                          {{{this.hiText}}}
+                        </p>
+                      {{/if}}
+                    {{/if}}
+  
+  
+                    {{#if (eq this.type 2)}}
+                      <p>Write the answer on on the answer key page. इसका उतर आखरी में उतर वाले पेज पर लिखिए।</p>
+                      <p></p>
+                    {{/if}}
+                  </td>
+                </tr>
+  
+                {{#if (eq this.type 1)}}
+                    <tr class="inline-block">
+                      {{#each this.options}}
+                      <tr style="display:inline-block; min-width:45%;">
+                        <td style="width:20px" colspan="2">{{string_lower @index}}).</td>
+                        <td class="options-cell">
+                          {{#if (hasParaTag this.text) }}
+                            {{{this.text}}}
+                          {{else}}
+                            <p>
+                              {{{this.text}}}
+                            </p>
+                          {{/if}}
+                        </td>
+                      </tr>
+                      {{/each}}
                     </tr>
-                    {{/each}}
-                  </tr>
-              {{/if}}
-            </table>
-          </td>
-        </tr>
-      </table>
+                {{/if}}
+              </table>
+            </td>
+          </tr>
+        </table>
+        {{/each}}
       {{/each}}
 
     </div>
@@ -265,7 +274,13 @@
       <p class="sub-heading">Tick-mark the correct option here:</p>
       <p class="sub-heading">यहां सही विकल्प पर टिक-मार्क करें:</p>
       <table class="answer-choices-table">
-        {{#each questions}}
+        {{#each sections}}
+        <tr>
+          <td colspan="3">
+            <h2>Section {{inc @index}}: {{this.sectionName}}</h2>
+          </td>
+        </tr>
+        {{#each this.questions}}
         <tr>
           <td class="th-width">
             <b>
@@ -286,16 +301,11 @@
           </td>
           {{else}}
           <td>
-
+        
           </td>
           {{/if}}
-          <td class="empty-cell">
-
-          </td>
-          <td class="empty-cell">
-
-          </td>
         </tr>
+        {{/each}}
         {{/each}}
       </table>
     </div>
