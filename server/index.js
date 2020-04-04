@@ -43,7 +43,7 @@ exports.deployment = async (start) => {
 
     return server;
 };
-
+console.log(`${__dirname}/../.env`, process.env.NODE_ENV)
 if (!module.parent) {
     try {
         if (process.env.NODE_ENV) {
